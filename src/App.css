@@ -7,13 +7,11 @@
 html,
 body {
   color: white;
-  background-color: #1b1b32;
+  background-color: #464676;
   font-family: Lato, sans-serif;
-  margin-top: 40px;
 }
 
 h1 {
-  color: #1b1b32;
   font-size: 25px;
   font-family: Roboto, sans-serif;
   text-align: center;
@@ -28,11 +26,20 @@ h1 {
 }
 
 .tareas-lista-principal {
-  width: 600px;
-  min-height: 500px;
-  background-color: #d0d0d5;
-  padding: 25px;
+  width: 900px;
+  min-height: 700px;
   margin: 10px;
   border-radius: 26px;
 }
 
+@media (max-width: 992px) {
+  .tareas-lista-principal {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tareas-lista-principal {
+    min-width: 320px;
+  }
+}

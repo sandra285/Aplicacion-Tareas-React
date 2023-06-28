@@ -1,5 +1,5 @@
 .tarea-contenedor {
-  width: 500px;
+  width: 100%;
   min-height: 65px;
   background-color: #1b1b32;
   margin: 5px 0;
@@ -41,6 +41,6 @@
 }
 
 .tarea-contenedor.completada {
-  background-color: #5a01a7;
+  background-color: #c03333;
   text-decoration: line-through;
 }
